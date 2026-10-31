@@ -1,0 +1,28 @@
+{
+  "columns": 6,
+  "rows_below_dock": 1,
+  "background_color": "#1A1218",
+  "wallpaper": true,
+  "wallpaper_true_color": true,
+  "wallpaper_dim": 18,
+  "dock_glass": true,
+  "dock_opacity": 65,
+  "ambient_glow": false,
+  "app_glow": false,
+  "dock_apps": [
+    "com.netflix.ninja",
+    "org.smarttube.beta",
+    "com.android.vending",
+    "id.visionplus.android.atv"
+  ],
+  "hidden_apps": [
+    "com.tcl.dashboard",
+    "com.google.android.youtube.tv"
+  ],
+  "live_tv_package": "com.tcl.tv",
+  "app_library": true,
+  "library_button": true,
+  "show_library_pill": true,
+  "reduced_motion": true,
+  "greeting_name": "Yara Falya Zimirleen"
+}

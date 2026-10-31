@@ -1,0 +1,38 @@
+# TCL C06 (C06_2K_GB, MT9221, Android TV 11 SDK 30, AR2101, V8-T221T01-LF1V118)
+# Base: examples/tcl-40s5400a (identical device/product/build), filtered to this unit's packages
+# and user choices on 2026-10-31. Everything DISABLED, never uninstalled.
+# Undo: apply tools/restore.sh with this file (record written by tools/disable.sh).
+# Kept by choice: Netflix, YouTube, Vision+, SmartTube, Assistant (katniss + tv.remote.service),
+# Chromecast (mediashell), Miracast (no package), firmware update (com.tcl.ttvs),
+# Play Store/Services, screen keyboard, com.tcl.settings, com.tcl.messagebox, com.tcl.suspension,
+# Live TV com.tcl.tv + com.tcl.tvinput, Bluetooth remote, setupwraith (Wi-Fi owner checked).
+# com.tcl.usercenter re-enables at every boot on this firmware; left in list, idle.
+com.tcl.usercenter                     # TCL account, re-enabled by system at boot (idle)
+com.tcl.guard                          # TGuard cleaner/support
+com.tcl.partnercustomizer              # promo rows on stock home
+com.tcl.waterfall.overseas             # TCL web-video portal
+com.tcl.esticker                       # store-demo sticker
+android.autoinstalls.config.tcl.device # partner-app auto installer config
+com.google.android.feedback
+com.google.android.play.games
+com.google.android.videos              # Play Movies
+com.google.android.youtube.tvmusic
+com.google.android.syncadapters.calendar
+com.google.android.tvrecommendations
+com.google.android.apps.nbu.smartconnect.tv # data-saver VPN
+com.google.android.partnersetup
+com.google.android.onetimeinitializer
+com.amazon.amazonvideo.livingroom      # Prime Video, unused by choice
+com.tcl.useragreement
+# com.tcl.smartalexa already disabled (pm -d list); line dropped: shell gets SecurityException on stale factory state
+com.tcl.dashboard                      # TCL HOME tile; launcher hides it anyway
+com.tcl.ui_mediaCenter                 # USB media player: keep OFF only if USB drive playback unused; re-enable with restore
+com.tcl.audioplayer
+com.tcl.videoplayer
+com.tcl.imageplayer
+com.tcl.t_solo                         # Bluetooth listen-alone helper
+com.tcl.dashboard
+com.tcl.ui_mediaCenter
+com.tcl.audioplayer
+com.tcl.videoplayer
+com.tcl.imageplayer

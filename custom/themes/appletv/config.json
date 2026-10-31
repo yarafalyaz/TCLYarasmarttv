@@ -1,0 +1,53 @@
+{
+  "columns": 6,
+  "rows_below_dock": 1,
+  "background_color": "#0B0D14",
+  "wallpaper": true,
+  "wallpaper_true_color": true,
+  "wallpaper_dim": 22,
+  "clock_wallpaper": true,
+  "clock_wallpaper_dim": 35,
+  "sky_intensity": 0,
+  "cinematic_home": true,
+  "cinematic_art": 0,
+  "cinematic_scrim": 50,
+  "cinematic_white_focus": true,
+  "dock_title": true,
+  "dock_glass": true,
+  "dock_opacity": 55,
+  "dock_even_padding": true,
+  "dock_apps": [
+    "com.netflix.ninja",
+    "org.smarttube.beta",
+    "com.android.vending",
+    "id.visionplus.android.atv"
+  ],
+  "hidden_apps": [
+    "com.tcl.dashboard",
+    "com.google.android.youtube.tv"
+  ],
+  "live_tv_package": "com.tcl.tv",
+  "app_library": true,
+  "library_button": true,
+  "show_library_pill": false,
+  "icon_only_buttons": true,
+  "icon_only_inputs": true,
+  "wifi_label_width": 0,
+  "animations": true,
+  "advanced_effects": true,
+  "focus_overshoot": true,
+  "ambient_glow": false,
+  "app_glow": false,
+  "glow_style": "radial",
+  "glass_style": "glass",
+  "fade_rows": true,
+  "always_show_names": false,
+  "wifi_status_color": true,
+  "key_filter": true,
+  "restore_key_services": true,
+  "app_keys": [
+    "KEYCODE_BUTTON_3:org.smarttube.beta",
+    "KEYCODE_TCL_YOUTUBE:org.smarttube.beta"
+  ],
+  "greeting_name": "Yara Falya Zimirleen"
+}
